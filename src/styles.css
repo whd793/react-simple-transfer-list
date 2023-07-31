@@ -1,0 +1,31 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  min-height: 100vh;
+  border: 1px solid black;
+  display: grid;
+  place-items: center;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.listcontainer {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: flex-start; */
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+.wrapper {
+  display: flex;
+}
+
+.listcontainer {
+  border: 1px solid black;
+}
